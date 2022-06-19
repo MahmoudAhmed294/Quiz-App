@@ -1,39 +1,34 @@
-.App {
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.app {
+  background-image: url("/public/images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.appTitle {
+  display: inline-block;
+  font-family: "Fascinate Inline";
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(135, 241, 255));
+  font-weight: 700;
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(rgb(0, 133, 163) 2px 2px);
+  font-size: 70px;
   text-align: center;
+  margin-top: 30px;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
+@media screen and (max-width: 480px) {
+  .app {
+    height: 115vh;
   }
 }

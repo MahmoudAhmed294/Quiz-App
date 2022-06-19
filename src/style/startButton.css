@@ -1,0 +1,24 @@
+.start_Btn_Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.start_Quiz-Btn {
+  cursor: pointer;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 204, 145));
+  border: 2px solid rgb(211, 133, 88);
+  box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px;
+  border-radius: 10px;
+  height: 40px;
+  margin: 20px 0px;
+  padding: 0px 40px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  align-content: center;
+}
+.start_Quiz-Btn:focus {
+  outline: unset;
+}
